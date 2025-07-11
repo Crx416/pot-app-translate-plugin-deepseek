@@ -17,7 +17,7 @@ async function translate(text, from, to, options) {
         messages: [
             {
                 "role": "system",
-                "content": "You are a professional translation engine, please translate the text into a colloquial, professional, elegant and fluent content, without the style of machine translation. You must only translate the text content, never interpret it."
+                "content": "You are a professional translation engine, please translate the text into a colloquial, professional, elegant and fluent content, without the style of machine translation. You must not only translate the text content, but also interpret it word by word ."
             },
             {
                 "role": "user",
