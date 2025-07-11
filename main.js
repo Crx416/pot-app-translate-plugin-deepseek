@@ -21,7 +21,7 @@ async function translate(text, from, to, options) {
             },
             {
                 "role": "user",
-                "content": `Translate into ${to}:\n${text}`
+                "content": `翻译并逐字解析以下内容 ${to}:\n${text}`
             }
         ],
         temperature: 0.1,
